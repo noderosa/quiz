@@ -39,6 +39,31 @@ h2 {
 	font-size: 1.15em;
 }
 
+.reset {
+	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    margin: 0 auto;
+    width: 6.688rem;
+    height: 2rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 0.1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.reset:hover {
+cursor: pointer;
+	color: #333333
+}
+
+
 .submit {
 	text-shadow: none;
     border-style: none;
