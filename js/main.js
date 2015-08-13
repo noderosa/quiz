@@ -63,12 +63,15 @@ $(document).ready(function(){
 	}
 
 	function results(){
-		$('#results').text("You answered " + numCorrect + " out of 5 questions right!");
-		$('#question-box').hide();
-		$('#q-square').hide();
-		$('#q-question').hide();
-		$('#q-answers').hide();
-		$('#submit').hide();
+		$('.results').text("You answered " + numCorrect + " out of 5 questions right!");
+		$('.question-numbers').hide();
+		$('.questionNum').hide();
+		$('.question-box').hide();
+		$('.q-square').hide();
+		$('.q-question').hide();
+		$('.q-answers').hide();
+		$('.submit').hide();
+		$('.newGame').show();
 	}
 
 
@@ -79,6 +82,10 @@ $(document).ready(function(){
 		
 	});
 
+	$(".newGame").on('click', function () {
+		location.reload();
+
+	});
 	
 });
 
